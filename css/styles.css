@@ -1,0 +1,158 @@
+/* -----------------------------tag selectors-------------------------------------------------------------- */
+
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  background-color: #f4eeff;
+  line-height: 2;
+}
+
+h1 {
+  margin-top: 50px;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  margin-bottom: 10px;
+  color: #424874;
+  line-height: 2;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  margin-top: -15px;
+  color: #424874;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #7f90db;
+  font-size: 1.5rem;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 5%;
+  border-color: rgb(160, 157, 157);
+  border-width: 8px;
+  margin: 100px auto;
+}
+a {
+  font-family: "Montserrat", sans-serif;
+}
+
+a:hover {
+  color: #f4eeff;
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 550;
+}
+
+/* -----------------------------class selectors-------------------------------------------------------------- */
+
+.top-container {
+  background-color: #f4eeff;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+  margin: 100px auto;
+}
+.bottom-container {
+  background: #424874;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.profile-img {
+  width: 15%;
+}
+
+.hello{
+  margin-top: 20px;
+}
+
+.my-skills{
+  font-size: 2.5rem;;
+  font-weight: 750;
+}
+
+.computer-img {
+  width: 25%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.code-img {
+  width: 25%;
+  float: right;
+  border-radius: 50%;
+  margin-left: 30px;
+}
+
+.contact-me {
+  margin: 70px auto 90px auto;
+}
+.gt{
+  font-size: 2.5rem;
+  font-weight: 750;
+}
+
+.btn {
+  -webkit-border-radius: 23;
+  -moz-border-radius: 23;
+  border-radius: 23px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #424874;
+  padding: 8px 16px 10px 17px;
+  text-decoration: none;
+  margin: 50px;
+}
+
+.btn:hover {
+  background: #ffffff;
+  text-decoration: none;
+  color: #424874;
+}
+
+.footer-link {
+  margin: 30px 30px;
+  color: #a6b1e1;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.end {
+  padding: 20px 0px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.75rem;
+}
